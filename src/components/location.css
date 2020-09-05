@@ -1,0 +1,44 @@
+.location-container {
+    display: flex;
+    padding: 3px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
+.location-container, form {
+    background-color: grey;
+    margin-top: 4px;
+    padding: 4px;   
+}
+
+.location-container {
+    display: flexbox;
+    padding-left: 3px;
+    align-items: flex-start;
+    color: white;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.btn-submit {
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    height: 31px;
+}
+
+.btn-submit:hover {
+    background-color: lightgreen;
+    color: black;
+    height: 31px;
+}
+
+
+input {
+    padding-left: 10px;
+    margin-left: 10px;  
+}

@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+.srleft {
+  justify-content: left;
+}
+
+.sun-info {
+  display: flex;
+  margin-top: 0.4em;
+  color: white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.sun-info-header {
+  display: flex;
+  align-content: center;
+  width: 300px;
+  max-width: 300px;
+  justify-content: center;
+  color: green;
+  background-color: rgba(24, 134, 140, 0.2); 
+  font-size: 30px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  margin-bottom: 1px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.gridcontainer {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: rgba(234, 134, 40, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.refresher {
+  margin-top: 1px;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  color: lightblue;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.interval-control {
+  margin-top: 50px;
+}
+
+.moon-pic {
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 100px;
+  height: 140px;
+}
+
+.gridcontainer:hover {
+  background-color: rgba(24, 134, 140, 0.2);
+  cursor: pointer;
+}
